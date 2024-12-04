@@ -39,8 +39,25 @@ Route::middleware([
 
     Route::get('/reporte/mapa/{id}', [ReportMapController::class, 'mostrarReporteMapa'])->name('reporte.mapa');
 
+    Route::get('/reporte-offline', function () {
+        return view('vendor.laravelpwa.reporte-offline');
+    });
+
 });
 
 Route::get('/avisodeprivacidad', [UsuarioController::class, 'show'])->name('privacidad.show');
 Route::get('/terminos', [UsuarioController::class, 'term'])->name('terminos.term');
 
+
+Route::get('/offline', function () {
+    return view('vendor.laravelpwa.offline');
+});
+
+
+Route::get('/proyecto', function () {
+    return view('home.proyecto');
+});
+
+Route::get('/integrantes', function () {
+    return view('home.integrantes');
+});

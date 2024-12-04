@@ -356,5 +356,9 @@
                 });
             })
         })
+
+        // localStorage.setItem('reportes', JSON.stringify(reportes));
+        localStorage['reportes'] = JSON.stringify({!!$reportes!!});
+
     </script>
 @stop

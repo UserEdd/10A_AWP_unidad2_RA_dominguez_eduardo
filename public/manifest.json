@@ -1,0 +1,17 @@
+{
+    "name": "SOCIALERT",
+    "short_name": "SOCIALERT",
+    "description": "Practica PWA",
+    "start_url": "/",
+    "display": "fullscrean",
+    "background_color": "#ffffff",
+    "theme_color": "#4CAF50",
+    "icons": [
+      {
+        "src": "/images/icons/logo.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
+  
